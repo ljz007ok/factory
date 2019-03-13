@@ -3,6 +3,11 @@ package com.gupao.factory.simplefactory;
 import com.gupao.factory.product.DzCar;
 import com.gupao.factory.product.ICar;
 
+/**
+ * 简单工厂类
+ * @author ljz
+ *
+ */
 public class SimpleFactory {
 	public static ICar create(String fullClassName) throws Exception {
 		ICar car = null;
